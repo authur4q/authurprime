@@ -1,0 +1,38 @@
+.links{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.links a{
+    text-decoration: none;
+    color: tomato;
+    margin-right: 40px;
+
+}
+.btn{
+    background: transparent;
+    color:tomato;
+    outline:none;
+    font-size: 1rem;
+    border: none;
+}
+.links a:hover{
+    text-decoration: none;
+    color: chartreuse                                                                                                                                                                                                                                                                   ;
+    margin-right: 40px;
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:black;
+    padding: 5px;
+
+}
+.logo{
+    color: chartreuse;
+    font-size: 1.4rem;
+}

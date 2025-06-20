@@ -1,0 +1,71 @@
+.reg{
+    display: grid;
+    align-items: center;
+    background-color:black;
+    height: 100vh;
+
+}
+.reg h1{
+   text-align: center;
+   margin-top: -150px;
+   color: antiquewhite;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -400px;
+
+}
+.reg input{
+    width: 500px;
+    padding: 10px;
+    font-size: 1.1rem;
+    text-align: center;
+    border: none;
+    color: wheat;
+    outline: none;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border-bottom: 2px solid chartreuse;
+
+
+    
+
+}
+.btn{
+    padding: 10px;
+    font-size: 1.4rem;
+    border-radius:10px ;
+    background-color: chartreuse;
+    margin-top: 20px;
+}
+.reg input:placeholder-shown{
+    
+    text-align: center;
+    
+    
+
+}
+.reg h2{
+    color: aliceblue;
+    text-align: center;
+}
+.reg p{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 15px;
+}
+.reg a{
+    text-decoration: none;
+    color: chartreuse;
+}
+.error{
+    color: red;
+    text-align: center;
+}
+.reg form{
+   display: flex;
+   flex-direction: column;
+   column-gap: 10px;
+}

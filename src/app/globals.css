@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.home{
+    background-color: black;
+    height: 100vh;
+    color: beige;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.play{
+    display:flex;
+    align-items: center;
+    text-align: center;
+    font-size: 1.1rem;
+    border: 1px solid chartreuse;
+    background-color: transparent;
+    color: blue;
+    border-radius: 10px;
+    padding: 3px;
+    width: 200px;
+    margin-top: 30px;
+}
+.play:hover{
+    background-color: rgba(88, 4, 114, 0.836);
+}
+.play a{
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+}
+.myPhoto{
+    background-color: black;
+    width: 10000px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    
+}
+.myPhoto h2{
+    margin-top: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.icons{
+    gap:30px;
+    display: flex;
+    flex-direction: row;
+    margin-top:110px;
+    
+    
+    
+}
+.myPhoto h1{
+    margin-top: 5px;
+    font-size: 3rem;
+    color: chartreuse;
+}
+.myPhoto h4{
+    margin-top: 30px;
+    font-size: 1rem;
+    color: chartreuse;
+}
+.myPhoto p{
+    margin-left: 254px;
+    margin-top: 7px;
+}
+.myPhoto span{
+    color: tomato;
+}
+.playimg{
+    background-color: transparent;
+    margin-left: 22px;
+}
+.myinfo{
+    background-color:rgba(5, 5, 165, 0.363);
+    width: 1000px;
+    height: 100vh;
+}
+
+/*login*/
+
+.login{
+    display: grid;
+    align-items: center;
+    background-color:black;
+    height: 100vh;
+
+}
+.login h1{
+   text-align: center;
+   margin-top: -150px;
+   color: antiquewhite;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -400px;
+
+}
+.login input{
+    width: 500px;
+    padding: 10px;
+    font-size: 1.1rem;
+    text-align: center;
+    border: none;
+    color: wheat;
+    outline: none;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border-bottom: 2px solid chartreuse;
+
+
+    
+
+}
+.btn{
+    padding: 10px;
+    font-size: 1.4rem;
+    border-radius:10px ;
+    background-color: chartreuse;
+    margin-top: 20px;
+}
+.login input:placeholder-shown{
+    
+    text-align: center;
+    
+    
+
+}
+.login h2{
+    color: aliceblue;
+    text-align: center;
+}
+.login p{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 15px;
+}
+.login a{
+    text-decoration: none;
+    color: chartreuse;
+}
+.error{
+    color: red;
+    text-align: center;
+}
+.login form{
+   display: flex;
+   flex-direction: column;
+   column-gap: 10px;
+}

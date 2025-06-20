@@ -1,0 +1,48 @@
+.name{
+    color: aqua;
+    font-style: italic;
+    font-size:4rem;-top: -40px
+    margin;
+}
+.h2{
+    color: whitesmoke;
+    font-size: 3rem;
+     margin-top: -130px;
+    
+    
+}
+
+.body{
+    background-color: black;
+    height: 100vh;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.seeport{
+    font-size: 2rem;
+    background-color: tomato;
+    color: white;
+    outline: none;
+    margin-top: 50px;
+    padding: 3px;
+    border-radius: 5px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.seeport a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.seeport a:hover{
+    text-decoration: none;
+    color: black;
+    background-color: chartreuse;
+    
+
+}
+

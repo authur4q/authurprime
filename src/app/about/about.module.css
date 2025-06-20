@@ -1,0 +1,40 @@
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin-top: 40px;
+    align-items: center;
+}
+.about h1{
+    text-align: center;
+}
+.intro{
+    border: 1px solid black;
+    padding: 6px;
+     border-radius: 10px;
+     text-align: center;
+     width: 500px;
+}
+.vision{
+    border: 1px solid black;
+    padding: 6px;
+    width: 500px;
+     text-align: center;
+    border-radius: 10px;
+}
+.specialize{
+     width: 500px;
+     text-align: center;
+}
+.toolkit{
+     width: 500px;
+     
+}
+.toolkit h2{
+    text-align: center;
+    color: chartreuse;
+}
+.specialize h2{
+    text-align: center;
+    color: chartreuse;
+}
