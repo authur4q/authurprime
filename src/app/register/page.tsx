@@ -1,4 +1,4 @@
-/* eslint-disable react/no-unescaped-entities */
+
 
 "use client"
 
@@ -14,7 +14,7 @@ const Register = () => {
     const [error,setError] = useState("")
     const router = useRouter()
 
-    const handleSubmit = async (e:any) => {
+    const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
 
         e.preventDefault()
         if(!name || !email || !password){
@@ -50,8 +50,6 @@ const Register = () => {
         
             
             if(res.ok){
-                const form = e.target;
-                form.reset();
                 router.push("/")
             }else{
                 alert("registration failed")
