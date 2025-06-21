@@ -1,8 +1,11 @@
+/* eslint-disable react/no-unescaped-entities */
+
 "use client"
 
 import React, { useState } from 'react'
 import { useRouter } from 'next/navigation'
 import styles from "./register.module.css"
+import Link from 'next/link'
 
 const Register = () => {
     const [name,setName] = useState("")
@@ -11,7 +14,7 @@ const Register = () => {
     const [error,setError] = useState("")
     const router = useRouter()
 
-    const handleSubmit = async (e) => {
+    const handleSubmit = async (e:any) => {
 
         e.preventDefault()
         if(!name || !email || !password){
@@ -69,7 +72,7 @@ const Register = () => {
         <button className={styles.btn}>Register</button>
         <br />
         <h2>Or</h2>
-         <p>Already have an account? <a href="/">Login</a></p>
+         <p>Already have an account? <Link href="/">Login</Link></p>
       </form>
         </div>
      

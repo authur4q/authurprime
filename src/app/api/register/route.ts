@@ -17,7 +17,7 @@ export const POST = async (req:Request) => {
 
     return NextResponse.json({message:"user created successfully"},{status:201})
 
-} catch (error) {
+} catch {
     return NextResponse.json({message:"user registration failed"},{status:500}) 
     }
 }
