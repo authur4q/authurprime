@@ -4,6 +4,7 @@ import { signIn } from 'next-auth/react'
 import React from 'react'
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
+import Link from "next/link"
 
 
 const Login = () => {
@@ -45,7 +46,7 @@ const Login = () => {
                   <button className="btn">Login</button>
                   <br />
                   <h2>Or</h2>
-                   <p>Don't have an account? <a href="/register">Register</a></p>
+                   <p>Don't have an account? <Link href="/register">Register</Link></p>
                 </form>
                   </div>
                
